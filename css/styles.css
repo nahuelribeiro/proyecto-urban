@@ -1,0 +1,90 @@
+body{
+    background: #303030;
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 20%;
+}
+
+.div-a{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+.a{
+    color: #9B59B6;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.carousel{
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.mvendidos{
+    color: #DEDBCF;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 50px;
+}
+.section-uno{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    margin: 0;
+    padding: 5px;
+    border: solid black 2px;
+    padding-left: 40px;
+}
+.articulo{
+    color: #DEDBCF;
+    border: solid black 2px;
+    border-radius: 5px;
+    background: solid #9B59B6;
+    padding-bottom: 15px;
+    margin: 10px;
+    justify-content: space-around;
+
+}
+.imagenes{
+    width: 100%;
+    height: auto;
+}
+.btn-comprar{
+    padding: 6px 12px;
+    background-color: #DEDBCF;
+    color: #303030;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px;
+}
+.btn-comprar:hover{
+    background-color: #9B59B6;
+    color: #DEDBCF;
+}
+.h2-art{
+    margin: 10px;
+    font-size: 25px;
+}
+.footer{
+    background: #444444;
+    color: #9B59B6;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#thank{
+    color: #9B59B6;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
